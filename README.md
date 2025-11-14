@@ -9,7 +9,7 @@ Here you can find my projects, live demos, and screenshots of my work.
 
 | Project | Description | Live Demo | Screenshot |
 |---------|------------|-----------|------------|
-| Brand1 Tech | Simple HTML + CSS product page showcasing a headphone | [Live](https://hamed-abu-sallam.github.io/my-web-learning/projects/brand1-tech/) | ![Brand1 Headphone](assets/images/brand1-headphone.png) |
+| Brand1 Tech | Simple HTML + CSS product page showcasing a headphone | [Live](https://hamed-abu-sallam.github.io/my-web-learning/projects/brand1-tech/) | ![Brand1 Headphone](assets/images/brand1-headphone.jpeg) |
 <!-- Add more projects here by copying the row above -->
 
 ---
