@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>رحلتي في الويب — Digiton</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <style>
+    :root{
+      --blue: #5bc0ff;   /* light blue */
+      --orange: #ff8a00; /* carrot orange */
+      --glass: rgba(255,255,255,0.08);
+      --text: #0f1720;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background: linear-gradient(135deg, var(--blue), var(--orange));
+      color: #fff;
+      padding:24px;
+    }
+    .container{
+      width:100%;
+      max-width:1000px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+      border-radius:16px;
+      padding:28px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      -webkit-backdrop-filter: blur(6px);
+      backdrop-filter: blur(6px);
+    }
+    header{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+    .logo{
+      width:56px;height:56px;border-radius:10px;
+      background:linear-gradient(180deg,var(--orange),var(--blue));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:#112;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    }
+    h1{margin:0;font-size:clamp(20px,3vw,34px);}
+    p.lead{margin:6px 0 0;font-size:16px;opacity:0.95}
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+      gap:18px;
+      margin-top:22px;
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      border-radius:12px;
+      padding:14px;
+      text-align:right;
+      color:#fff;
+      min-height:120px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      border:1px solid rgba(255,255,255,0.05);
+    }
+    .card h3{margin:0 0 6px;font-size:18px}
+    .card p{margin:0;font-size:14px;opacity:0.9}
+    .actions{display:flex;gap:8px; margin-top:12px; justify-content:flex-start}
+    .btn{
+      padding:8px 12px;border-radius:8px;border:none;cursor:pointer;font-weight:600;
+      background:rgba(255,255,255,0.12); color:#fff; text-decoration:none;
+    }
+    .btn.live{background:var(--blue); color:#06232b;}
+    footer{margin-top:18px;text-align:center;font-size:13px;opacity:0.9}
+    .header-right{text-align:left}
+    @media(max-width:480px){
+      .brand h1{font-size:18px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">D</div>
+        <div>
+          <h1>رحلتي في تطوير الويب — Digiton</h1>
+          <p class="lead">صفحات مشروعي من بداية تعلّمي HTML وCSS وJavaScript</p>
+      <div class="header-right">
+        <small>عرض المشاريع</small>
+      </div>
+        <small>عرض المشاريع</small>
+      </div>
+    </header>
+
+    <section class="grid" id="projects">
+      <!-- مثال بطاقة مشروع -->
+      <article class="card">
+        <div>
+          <h3>الصفحة الأولى — HTML أساسية</h3>
+          <p>تمرين بسيط على هيكلية صفحة HTML وعناصر النصوص والروابط.</p>
+          <a class="btn live" href="projects/project-1/index.html" target="_blank">عرض مباشر</a>
+          <a class="btn code" href="https://github.com/hamed-abu-sallam/my-web-learning/tree/main/projects/project-1" target="_blank" rel="noopener">الكود</a>
+          <a class="btn live" href="projects/project-1/index.html" target="_blank">عرض مباشر</a>
+          <a class="btn code" href="https://github.com/hamed-abu-sallam/my-web-learning/tree/main/projects/project-1" target="_blank" rel="noopener">الكود</a>
+        </div>
+      </article>
+
+      <!-- انسخ وغيّر البطاقات حسب مشاريعك -->
+       
+    </section>
+
+    <footer>
+      تم بناؤه بواسطة Hamed — عرض أعمالي التعليمية
+    </footer>
+  </div>
+</body>
+</html>
