@@ -18,12 +18,18 @@
     h1 {
       color: #063a4b;
       text-align: center;
+      margin-bottom: 10px;
+    }
+    p.description {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+      color: #555;
     }
     .projects-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      margin-top: 30px;
     }
     .card {
       background: #fff;
@@ -37,7 +43,16 @@
       transform: translateY(-5px);
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     }
-    a {
+    .card h2 {
+      color: #063a4b;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 0.95em;
+      color: #555;
+      line-height: 1.4em;
+    }
+    .card a {
       display: inline-block;
       margin-top: 15px;
       padding: 10px 15px;
@@ -47,7 +62,7 @@
       text-decoration: none;
       transition: 0.3s;
     }
-    a:hover {
+    .card a:hover {
       background: #007bbf;
     }
   </style>
@@ -55,24 +70,25 @@
 <body>
   <div class="wrap">
     <h1>مشاريعي أثناء تعلم الويب</h1>
-    <p style="text-align:center;">اضغط على أي مشروع لعرضه مباشرة</p>
+    <p class="description">اضغط على أي مشروع لعرضه مباشرة</p>
 
     <div class="projects-container">
+
+      <!-- مشروع 1: Brand1 Tech -->
       <div class="card">
         <h2>Brand1 Tech</h2>
-        <p>صفحة عرض منتج سماعة رأس (HTML + CSS)</p>
+        <p>صفحة عرض منتج سماعة رأس باستخدام HTML و CSS، تعرض أساسيات تعلمي في تصميم الصفحات.</p>
         <a href="projects/brand1-tech/" target="_blank">عرض المشروع</a>
       </div>
 
-      <!--  مثال لمشروع ثاني هوية الشركات -->
+      <!-- مشروع 2: Company Portfolio -->
       <div class="card">
-  <h2>Company_Portfolio</h2>
-       <p>This project is a <strong>modern, responsive, bilingual website</strong> designed for an engineering & industrial company.  
-           It provides a professional digital presence that supports both Arabic (RTL) and English (LTR) interfaces —  
-           with instant language switching <strong>without page reload</strong>.</p>
+        <h2>Company Portfolio</h2>
+        <p>مشروع موقع حديث واستجابي (Responsive) ثنائي اللغة، مصمم لشركة هندسية وصناعية.  
+           يدعم العربية (RTL) والإنجليزية (LTR) مع تبديل اللغة الفوري بدون إعادة تحميل الصفحة.</p>
         <a href="projects/Company_Portfolio/" target="_blank">عرض المشروع</a>
       </div>
-    
+
     </div>
   </div>
 </body>
