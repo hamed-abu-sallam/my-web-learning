@@ -67,7 +67,8 @@ The JavaScript file is structured into 4 main parts:
 ---
 
 ## 🚀 Live Demo  
-🔗 *Will be added once GitHub Pages is enabled*
+🔗 | Company Portfolio | Modern, responsive, bilingual website designed for an engineering & industrial company. Supports Arabic (RTL) and English (LTR) with instant language switching without page reload. | [Live](https://hamed-abu-sallam.github.io/my-web-learning/projects/Company_Portfolio/) | ![Company Portfolio](assets/images/company-portfolio.jpeg) |
+
 
 ---
 
