@@ -5,6 +5,13 @@ Here you can find my projects, live demos, and screenshots of my work.
 
 ---
 
+## Live Demo
+
+Check out the **live demo of all my projects** in one place:  
+[🌐 Open Live Demo](https://hamed-abu-sallam.github.io/my-web-learning/live-demo.html)
+
+---
+
 ## Projects
 
 | Project | Description | Live Demo | Screenshot |
