@@ -10,7 +10,14 @@ Here you can find my projects, live demos, and screenshots of my work.
 | Project | Description | Live Demo | Screenshot |
 |---------|------------|-----------|------------|
 | Brand1 Tech | Simple HTML + CSS product page showcasing a headphone | [Live](https://hamed-abu-sallam.github.io/my-web-learning/projects/brand1-tech/) | ![Brand1 Headphone](assets/images/brand1-headphone.jpeg) |
-<!-- Add more projects here by copying the row above -->
+| Company Portfolio | Modern, responsive, bilingual website designed for an engineering & industrial company. Supports Arabic (RTL) and English (LTR) with instant language switching without page reload. | [Live](https://hamed-abu-sallam.github.io/my-web-learning/projects/Company_Portfolio/) | ![Company Portfolio](assets/images/company-portfolio.jpeg) |
+
+---
+
+## About
+
+These projects represent my journey learning web development.  
+I am continuously updating this repository with new projects, showing a **well-organized progress path** for anyone interested in exploring the basics of web development.
 
 ---
 
